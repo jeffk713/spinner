@@ -6,7 +6,7 @@ for (let i = 0; i < 5000; i += 200) {
 
   setTimeout(() => {
     process.stdout.write(spinnerArr[index]);
+    counter++;
   }, i);
 
-  counter++;
 }
